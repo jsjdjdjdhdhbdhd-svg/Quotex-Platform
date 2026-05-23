@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left Candlestick: Wick -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M36,54 L36,78" />
+    <!-- Left Candlestick: Body -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M32,58 H40 V72 H32 Z" />
+
+    <!-- Center Candlestick: Wick -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,40 L54,70" />
+    <!-- Center Candlestick: Body -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M50,46 H58 V64 H50 Z" />
+
+    <!-- Right Candlestick: Wick -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M72,26 L72,56" />
+    <!-- Right Candlestick: Body -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M68,32 H76 V50 H68 Z" />
+
+    <!-- Glowing Soaring Trend Line Path -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,80 Q 48,74 74,32" />
+
+    <!-- Soaring Trend Arrowhead -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M62,32 H76 V46" />
+</vector>
+
